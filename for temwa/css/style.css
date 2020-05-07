@@ -1,0 +1,38 @@
+*::selection{
+    background-color: rgba(32, 202, 17, 0.527);
+  }
+ h6{
+   font-size:18px;
+   font-weight:400px;
+ }
+ #web-title{
+     font-size:28px;
+ }
+ #logo-img{
+     margin-top: 10px;
+     position: absolute;
+ }
+ #logo-text{
+     margin-left:50px;
+ }
+ p{
+     font-size: 17px;
+ }
+ #apply-btn{
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+ .parallax-container{
+     background-color: rgba(4, 0, 255, 0.733);
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+    color: #1583e9 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #3d9af0 !important;
+    box-shadow: 0 1px 0 0 #000;
+}
